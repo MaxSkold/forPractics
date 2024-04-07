@@ -46,7 +46,6 @@ namespace practic1
         }
     }
     
-
     internal class Program
     {
         static void Main()
@@ -73,7 +72,8 @@ namespace practic1
             Console.WriteLine("Here are your results:");
             dice.OutpuResults();
 
-            Console.WriteLine("\nThe results are in the form of a histogram:");
+            Console.WriteLine("\nThe results are in the form of a histogram:\n" +
+                "-------------------------------------------");
             dice.Histogram();
 
             Console.ReadKey();
